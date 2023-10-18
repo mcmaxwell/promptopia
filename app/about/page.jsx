@@ -1,14 +1,14 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
-
 const About = () => {
-    const router = useRouter()
-    const searchParams = useSearchParams()
-    const promptId = searchParams.get('id')
-
-    return <>about</>
+    return (
+        <>
+            Web site from video course{' '}
+            <a href='https://www.youtube.com/watch?v=wm5gMKuwSYk&ab_channel=JavaScriptMastery'>
+                JavaScriptMastery
+            </a>
+        </>
+    )
 }
 
 export default About

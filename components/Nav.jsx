@@ -38,7 +38,7 @@ const Nav = () => {
             <div className='sm:flex hidden'>
                 <Link
                     href='/about'
-                    className='black_btn'
+                    className='black_btn mr-5'
                 >
                     About Us
                 </Link>
